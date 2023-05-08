@@ -1,0 +1,118 @@
+.LatestMatchContainer {
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 10px;
+  font-family: Bree Serif;
+  padding: 30px;
+}
+
+.leftAndMiddleContainer {
+  display: flex;
+}
+
+/* left side CSS */
+
+.LeftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+
+.LeftSide div {
+  font-weight: 600;
+}
+
+.competingTeam {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 40px 0 20px 0;
+}
+
+.date {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+}
+.venue {
+  margin: 10px 0 20px;
+}
+.result {
+  margin: 0 0 40px;
+}
+
+/* middle img CSS */
+
+.middle {
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.middle img {
+  width: 100%;
+  height: 200px;
+  vertical-align: middle;
+}
+
+.lineBreak {
+  display: none;
+}
+
+/* right side CSS */
+
+.Right {
+  text-align: right;
+  font-weight: 600;
+  font-size: 18px;
+  width: 350px;
+}
+
+.Right div {
+  margin: 20px 0;
+}
+
+.FirstInnings div {
+  font-size: 14px;
+}
+
+.SecondInnings div {
+  font-size: 14px;
+}
+
+.ManofTheMatch div {
+  font-size: 14px;
+}
+
+.Umpires div {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .lineBreak {
+    display: block;
+    background-color: #475569;
+    height: 2px;
+    border-radius: 5px;
+    margin: 0 -30px;
+  }
+
+  .LatestMatchContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .Right {
+    text-align: left;
+  }
+
+  .middle img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+  }
+
+  .leftAndMiddleContainer {
+    justify-content: space-between;
+  }
+}

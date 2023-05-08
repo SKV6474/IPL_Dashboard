@@ -1,0 +1,22 @@
+.teamsContainer {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 70px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .teamsContainer {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png");
+  }
+
+  .container {
+    padding: 75px 20px;
+  }
+}

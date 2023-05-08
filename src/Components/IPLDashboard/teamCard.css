@@ -1,0 +1,15 @@
+.teamsCardContainer {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .teamsCardContainer {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: nowrap;
+  }
+}

@@ -1,0 +1,26 @@
+.teamMatchContainer {
+  height: 100%;
+  color: #fff;
+}
+
+.teamMatch {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 75px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.teamBanner {
+  margin-bottom: 25px;
+}
+
+.teamBanner img {
+  width: 100%;
+}
+
+@media screen and (max-width: 610px) {
+  .teamMatch {
+    padding: 75px 20px;
+  }
+}
